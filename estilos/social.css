@@ -6,6 +6,8 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
 ::-webkit-scrollbar {
     width: 0px;
     height: 0px;
@@ -14,13 +16,15 @@ img {
     width: 100vw;
 }
 
-a{
-    display: block;
+a {
+    display: flexbox;
     background-color: darkred;
     color: white;
-    padding: 20px;
-    text-align: center;
+    padding: 5px;
+    padding-left: 33%;
+    padding-right: 67%;
     font-weight: bolder;
+    text-align: center;
     text-decoration: none;
 }
 
